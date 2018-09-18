@@ -1,5 +1,5 @@
 # api_quizmobileapp
 - API câu hỏi và đáp án
 
-# Run
-- npm st
+# 1. Run
+- npm start
