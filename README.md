@@ -3,7 +3,7 @@
 
 ### 1. Cài đăt chạy api local
 - chạy lênh sau: npm start
-- truy cập vào uri : http://localhost:3000 để bi
+- truy cập vào uri : http://localhost:3000 để đọc hướng dẫn
 
 ### 2. api lấy list câu hỏi và option 
 - request tới uri: http://localhost:3000/questions
