@@ -2,11 +2,10 @@
 - API câu hỏi và đáp án
 
 ### 1. Cài đăt chạy api local
-- chạy lênh sau: npm start
-- truy cập vào uri : http://localhost:3000 để đọc hướng dẫn
+- truy cập vào uri : http://cungnhauhoc.online:3000 để đọc hướng dẫn
 
 ### 2. api lấy list câu hỏi và option 
-- request tới uri: http://localhost:3000/questions
+- request tới uri: http://cungnhauhoc.online:3000/questions
 - method: GET
 - response: trả về  1 json có dạng sau 
     
@@ -21,7 +20,7 @@
     
     
  ### 3. api kiểm tra câu trả lời 
- - request tới uri: http://localhost:3000/answer?question=cauhoi&option=cautraloi
+ - request tới uri: http://cungnhauhoc:3000/answer?question=cauhoi&option=cautraloi
  - method: GET
  - response: trả về 1 json có dạng sau
 
@@ -33,8 +32,6 @@
             correct: true
           }
       
-  ### 4. Chú ý: các bạn có thể thay uri 
-    http://localhost:3000/questions thành http://cungnhauhoc.online/questions
-    http://localhost:3000/answer?question=cauhoi&option=cautraloi thành http://cungnhauhoc.online/answer?question=cauhoi&option=cautraloi
+  
     
       
