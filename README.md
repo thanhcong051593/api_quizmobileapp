@@ -5,7 +5,7 @@
 - chạy lênh sau: npm start
 
 ### api lấy list câu hỏi và option 
-- request tới uri: http:localhost:3000/questions
+- request tới uri: http://localhost:3000/questions
 - method: GET
 - response: trả về  1 json có dạng sau 
     
@@ -20,7 +20,7 @@
     
     
  ### api kiểm tra câu trả lời 
- - request tới uri: http:localhost:3000/answer?question=cauhoi&option=cautraloi
+ - request tới uri: http://localhost:3000/answer?question=cauhoi&option=cautraloi
  - method: GET
  - response: trả về 1 json có dạng sau
  
