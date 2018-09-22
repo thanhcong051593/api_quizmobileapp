@@ -1,7 +1,6 @@
-const data = {
-      "quiz" : {
+const data = 
+      {
         "question1" : {
-          "correctoption" : "option2",
           "options" : {
             "option1" : "Turkey",
             "option2" : "Australia",
@@ -11,7 +10,6 @@ const data = {
           "question" : "Canberra is the capital of ____ "
         },
         "question2" : {
-          "correctoption" : "option2",
           "options" : {
             "option1" : "Argentina",
             "option2" : "Thailand",
@@ -21,7 +19,6 @@ const data = {
           "question" : "Bangkok is the capital of ____ "
         },
         "question3" : {
-          "correctoption" : "option2",
           "options" : {
             "option1" : "Italy",
             "option2" : "France",
@@ -31,7 +28,6 @@ const data = {
           "question" : "Paris is the capital of ____"
         },
         "question4" : {
-          "correctoption" : "option3",
           "options" : {
             "option1" : "Angola",
             "option2" : "Bahamas",
@@ -41,7 +37,6 @@ const data = {
           "question" : "Tirana is the capital of ____"
         },
         "question5" : {
-          "correctoption" : "option4",
           "options" : {
             "option1" : "Cameroon",
             "option2" : "Afghanistan",
@@ -50,7 +45,5 @@ const data = {
           },
           "question" : "Islamabad is the capital of ____"
         }
-      }
-}
-
+    }
 module.exports = data;
