@@ -2,7 +2,6 @@
 - API câu hỏi và đáp án
 
 ### 1. Cài đăt chạy api local
-- chạy lênh sau: npm start
 - truy cập vào uri : http://cungnhauhoc.online:3000 để đọc hướng dẫn
 
 ### 2. api lấy list câu hỏi và option 
