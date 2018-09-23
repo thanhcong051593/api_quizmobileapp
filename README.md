@@ -36,8 +36,8 @@
             correct: true
           }
  ### 4. Truy cập api online
-        - http://cungnhauhoc.online:3000/questions
-        - http://cungnhauhoc:3000/answer?question=cauhoi&option=cautraloi
+        - http://54.169.137.68:3000/questions
+        - http://54.169.137.68:3000/answer?question=question1&option=option2
       
   
     
