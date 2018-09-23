@@ -36,8 +36,8 @@
             correct: true
           }
  ### 4. Truy cập api online
-        - http://54.169.137.68:3000/questions
-        - http://54.169.137.68:3000/answer?question=question1&option=option2
+        - http://13.250.122.56:3000/questions
+        - http://13.250.122.56:3000/answer?question=question1&option=option2
       
   
     
