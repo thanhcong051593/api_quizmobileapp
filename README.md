@@ -2,10 +2,14 @@
 - API câu hỏi và đáp án
 
 ### 1. Cài đăt chạy api local
-- truy cập vào uri : http://cungnhauhoc.online:3000 để đọc hướng dẫn
+    B1: clone code từ github
+    B2: truy cập vào thư mục root của ứng dụng api
+    B3: gõ lệnh cmd "npm install"
+    B4: gõ lệnh cmd "npm start"
+    B5: truy cập vào "http://localhost:3000" để kiểm tra cài đặt thành công hay chưa
 
 ### 2. api lấy list câu hỏi và option 
-- request tới uri: http://cungnhauhoc.online:3000/questions
+- request tới uri: http://localhost:3000/questions
 - method: GET
 - response: trả về  1 json có dạng sau 
     
@@ -20,17 +24,20 @@
     
     
  ### 3. api kiểm tra câu trả lời 
- - request tới uri: http://cungnhauhoc:3000/answer?question=cauhoi&option=cautraloi
+ - request tới uri: http://localhost:3000/answer?question=question1&option=option2
  - method: GET
  - response: trả về 1 json có dạng sau
 
           {
             statusCode: 200,
             message: "Success",
-            question: "cauhoi",
-            option: "cautraloi",
+            question: "question1",
+            option: "option2",
             correct: true
           }
+ ### 4. Truy cập api online
+        - http://cungnhauhoc.online:3000/questions
+        - http://cungnhauhoc:3000/answer?question=cauhoi&option=cautraloi
       
   
     
